@@ -1,0 +1,24 @@
+{
+  "name": "screenoteka",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fastify": "^4.22.2",
+    "fastify-type-provider-zod": "^1.1.0",
+    "pg": "^8.11.0",
+    "pino": "^8.15.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.3.3",
+    "vite": "^7.1.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^0.34.6"
+  }
+}
